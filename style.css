@@ -1,0 +1,159 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+} 
+.container 
+{
+    width: 100%;
+    height: 100%;
+}
+.navbar 
+{
+    height: 10vh ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:rgb(231, 232, 234); 
+    margin: 0px; 
+
+}
+.navbar>* 
+{
+    margin-left: 40px;
+    
+} 
+.navbar .i>*
+{
+    font-size: 250%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(153, 154, 155);
+    border-radius: 10px 10px;
+}
+.navbar .li>*
+{
+    font-size: 150%;
+    padding-left: 50px;
+    color: rgb(138, 138, 138);
+}
+#ic
+{
+  font-size: 250%;
+  margin-top: 2px;
+  color:rgb(76, 76, 253);
+}
+.li>*,.i>*,.in>*
+{
+    margin-left: 20px;
+} 
+.side
+{ 
+    display: flex;
+    justify-content:space-between;
+}  
+.ul,.cin
+{
+    width: 40%;
+    height: 100vh;
+} 
+.ju li  >*
+{
+    font-size: 30px;
+    padding-right:2px ;
+    margin-left: 50px;
+} 
+.ju li a 
+{
+    font-size: medium;
+}
+
+.ul>ul>*
+{
+   font-size: 20px;
+} 
+.list{
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+   
+} 
+ 
+
+.sl
+{
+    width: 30%;
+    overflow-y: scroll;
+    height: 90vh;
+} 
+.al ul 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+} 
+.sidebar{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: scroll; 
+    height: 100%;
+}
+.side ul li 
+{
+    list-style: none;
+    padding-top: 40px;
+}
+.side ul li a{
+    text-decoration: none;
+}  
+input 
+{
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+.ul
+{
+    overflow-Y: scroll; 
+    height: 90vh;
+    width: 30%;
+    
+    
+} 
+
+.list>*
+{
+    padding-top: 10%;
+}
+.ys p
+{
+    margin-top: 20px;
+    color: rgb(115, 115, 115);
+    font-size: 30px;
+}
+.ss p{
+    margin-top: 20px;
+    color: rgb(115, 115, 115);
+    font-size: 30px;
+}
+.ss i
+{
+    color: rgb(0, 140, 255);
+}
+.ss{
+    border-bottom: 2px solid;
+}
